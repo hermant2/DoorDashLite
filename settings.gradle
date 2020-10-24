@@ -1,0 +1,5 @@
+include ':commonui'
+include ':network'
+include ':utilities'
+include ':app'
+rootProject.name = "DoorDashLite"

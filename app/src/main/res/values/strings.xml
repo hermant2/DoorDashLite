@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Door Dash Lite</string>
+    <string name="discover">Discover</string>
+    <string name="restaurant_details">Restaurant Details</string>
+
+    <string name="formatted_delivery_fee">%s Delivery Fee</string>
+
+    <string name="ok">OK</string>
+    <string name="oops">Oops!</string>
+    <string name="something_went_wrong">Something went wrong.</string>
+    <string name="try_again">Try Again</string>
+</resources>

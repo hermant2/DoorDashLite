@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_red</item>
+        <item name="colorPrimaryDark">@color/color_red_dark</item>
+        <item name="colorSecondary">@color/color_dark_grey</item>
+        <item name="colorSurface">@color/color_off_white</item>
+        <item name="colorPrimarySurface">@color/color_off_white</item>
+        <item name="colorOnPrimarySurface">@color/color_dark_grey</item>
+        <item name="colorOnSurface">@color/color_dark_grey</item>
+        <item name="colorOnPrimary">@color/color_off_white</item>
+        <item name="android:textViewStyle">@style/Widget.DoorDashLite.TextView.Paragraph</item>
+        <item name="cardViewStyle">@style/Widget.DoorDashLite.CardView</item>
+        <item name="buttonStyle">@style/Widget.DoorDashLite.Button</item>
+        <item name="materialButtonStyle">@style/Widget.DoorDashLite.Button</item>
+        <item name="android:progressBarStyle">@style/Widget.DoorDashLite.ProgressBar</item>
+        <item name="toolbarStyle">@style/Widget.DoorDashLite.Toolbar</item>
+    </style>
+
+</resources>

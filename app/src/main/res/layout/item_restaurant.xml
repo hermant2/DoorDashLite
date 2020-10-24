@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.treyherman.doordashlite.scene.discoverrestaurants.list.restaurant.RestaurantView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.DoorDashLite.SelectableCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/spacing_small"
+    android:layout_marginLeft="@dimen/spacing_small"
+    android:layout_marginTop="@dimen/spacing_tiny"
+    android:layout_marginEnd="@dimen/spacing_small"
+    android:layout_marginRight="@dimen/spacing_small"
+    android:layout_marginBottom="@dimen/spacing_tiny">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_small">
+
+        <ImageView
+            android:id="@+id/ivRestaurant"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.2"
+            tools:src="@drawable/ic_food_placeholder" />
+
+        <TextView
+            android:id="@+id/tvRestaurantName"
+            style="@style/Widget.DoorDashLite.TextView.Label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:layout_marginLeft="@dimen/spacing_small"
+            android:ellipsize="end"
+            android:lines="1"
+            app:layout_constraintBottom_toTopOf="@id/tvDescription"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ivRestaurant"
+            app:layout_constraintTop_toTopOf="@id/ivRestaurant"
+            tools:text="Burger King" />
+
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_small"
+            android:layout_marginLeft="@dimen/spacing_small"
+            android:ellipsize="end"
+            android:lines="1"
+            app:layout_constraintBottom_toBottomOf="@id/ivRestaurant"
+            app:layout_constraintEnd_toStartOf="@id/tvStatus"
+            app:layout_constraintStart_toEndOf="@id/ivRestaurant"
+            app:layout_constraintTop_toBottomOf="@id/tvRestaurantName"
+            tools:text="American, Burgers" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/tvDescription"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="Closed" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.treyherman.doordashlite.scene.discoverrestaurants.list.restaurant.RestaurantView>
