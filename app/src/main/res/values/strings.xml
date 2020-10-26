@@ -4,6 +4,7 @@
     <string name="restaurant_details">Restaurant Details</string>
 
     <string name="formatted_delivery_fee">%s Delivery Fee</string>
+    <string name="no_restaurants_found">No restaurants were found.</string>
 
     <string name="ok">OK</string>
     <string name="oops">Oops!</string>

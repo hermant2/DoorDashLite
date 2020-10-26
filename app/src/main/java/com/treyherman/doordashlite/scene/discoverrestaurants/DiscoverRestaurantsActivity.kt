@@ -92,8 +92,7 @@ class DiscoverRestaurantsActivity : AppCompatActivity(), DiscoverRestaurantsMvp.
 
     override fun openRestaurantDetailScene(restaurantId: Long) {
         startActivity(RestaurantDetailActivity.createIntent(this, restaurantId))
-
-        overridePendingTransition(R.anim.enter_scene_right, R.anim.exit_scene_fade_out)
+        overridePendingTransition(R.anim.enter_scene_right, R.anim.scene_stand_still)
     }
 
     // region private

@@ -6,10 +6,13 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4cb0af0-4f9a-44fb-ae3f-ec9a99538168" name="Default Changelist" comment="" />
+    <list default="true" id="c4cb0af0-4f9a-44fb-ae3f-ec9a99538168" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,14 +36,18 @@
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="valueResourceFile" />
-        <option value="resourceFile" />
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jHPTpaE9aQ8UMzkkEMjOzj6uY4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,9 +55,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="Pixel_3_API_29&#10;Nexus_5_API_16" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/commonui/src/main" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1603579945346" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1603711878984" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,7 +72,88 @@
       <recent name="$PROJECT_DIR$/commonui/src/main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="CurrencyFormatManagerTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.treyherman.doordashlite.manager.currency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.treyherman.doordashlite.manager.currency" />
+      <option name="MAIN_CLASS_NAME" value="com.treyherman.doordashlite.manager.currency.CurrencyFormatManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantDetailModelMapperTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.treyherman.doordashlite.scene.restaurantdetail.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.treyherman.doordashlite.scene.restaurantdetail.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.treyherman.doordashlite.scene.restaurantdetail.mapper.RestaurantDetailModelMapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantDetailPresenterTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.treyherman.doordashlite.scene.restaurantdetail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.treyherman.doordashlite.scene.restaurantdetail" />
+      <option name="MAIN_CLASS_NAME" value="com.treyherman.doordashlite.scene.restaurantdetail.RestaurantDetailPresenterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantsDiffCallbackTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.treyherman.doordashlite.scene.discoverrestaurants.diff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.treyherman.doordashlite.scene.discoverrestaurants.diff" />
+      <option name="MAIN_CLASS_NAME" value="com.treyherman.doordashlite.scene.discoverrestaurants.diff.RestaurantsDiffCallbackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestaurantsModelMapperTest.mapRestaurants_result" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.treyherman.doordashlite.scene.discoverrestaurants.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.treyherman.doordashlite.scene.discoverrestaurants.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.treyherman.doordashlite.scene.discoverrestaurants.mapper.RestaurantsModelMapperTest" />
+      <option name="METHOD_NAME" value="mapRestaurants_result" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -122,6 +212,15 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android JUnit.RestaurantsDiffCallbackTest" />
+        <item itemvalue="Android JUnit.CurrencyFormatManagerTest" />
+        <item itemvalue="Android JUnit.RestaurantDetailModelMapperTest" />
+        <item itemvalue="Android JUnit.RestaurantsModelMapperTest.mapRestaurants_result" />
+        <item itemvalue="Android JUnit.RestaurantDetailPresenterTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -162,60 +261,81 @@
       <screen x="-266" y="-1057" width="1920" height="980" />
     </state>
     <state x="282" y="-806" key="AndroidCreateResourceFileDialog/-266.-1057.1920.980/0.23.1440.877@-266.-1057.1920.980" timestamp="1603562800126" />
-    <state width="1878" height="326" key="GridCell.Tab.0.bottom" timestamp="1603579193187">
+    <state width="1878" height="357" key="GridCell.Tab.0.bottom" timestamp="1603712973210">
       <screen x="-266" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="326" key="GridCell.Tab.0.bottom/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603579193187" />
+    <state width="1878" height="357" key="GridCell.Tab.0.bottom/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603712973210" />
+    <state width="1878" height="357" key="GridCell.Tab.0.bottom/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603712514395" />
     <state width="1878" height="222" key="GridCell.Tab.0.bottom/-266.-1057.1920.1057/0.23.1440.816@-266.-1057.1920.1057" timestamp="1603575602226" />
     <state width="1878" height="326" key="GridCell.Tab.0.bottom/-266.-1057.1920.980/0.23.1440.877@-266.-1057.1920.980" timestamp="1603557025764" />
-    <state width="1878" height="326" key="GridCell.Tab.0.center" timestamp="1603579193186">
+    <state width="1878" height="357" key="GridCell.Tab.0.center" timestamp="1603712973210">
       <screen x="-266" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="326" key="GridCell.Tab.0.center/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603579193186" />
+    <state width="1878" height="357" key="GridCell.Tab.0.center/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603712973210" />
+    <state width="1878" height="357" key="GridCell.Tab.0.center/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603712514393" />
     <state width="1878" height="222" key="GridCell.Tab.0.center/-266.-1057.1920.1057/0.23.1440.816@-266.-1057.1920.1057" timestamp="1603575602225" />
     <state width="1878" height="326" key="GridCell.Tab.0.center/-266.-1057.1920.980/0.23.1440.877@-266.-1057.1920.980" timestamp="1603557025763" />
-    <state width="1878" height="326" key="GridCell.Tab.0.left" timestamp="1603579193185">
+    <state width="1878" height="357" key="GridCell.Tab.0.left" timestamp="1603712973209">
       <screen x="-266" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="326" key="GridCell.Tab.0.left/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603579193185" />
+    <state width="1878" height="357" key="GridCell.Tab.0.left/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603712973209" />
+    <state width="1878" height="357" key="GridCell.Tab.0.left/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603712514393" />
     <state width="1878" height="222" key="GridCell.Tab.0.left/-266.-1057.1920.1057/0.23.1440.816@-266.-1057.1920.1057" timestamp="1603575602224" />
     <state width="1878" height="326" key="GridCell.Tab.0.left/-266.-1057.1920.980/0.23.1440.877@-266.-1057.1920.980" timestamp="1603557025762" />
-    <state width="1878" height="326" key="GridCell.Tab.0.right" timestamp="1603579193186">
+    <state width="1878" height="357" key="GridCell.Tab.0.right" timestamp="1603712973210">
       <screen x="-266" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="326" key="GridCell.Tab.0.right/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603579193186" />
+    <state width="1878" height="357" key="GridCell.Tab.0.right/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603712973210" />
+    <state width="1878" height="357" key="GridCell.Tab.0.right/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603712514394" />
     <state width="1878" height="222" key="GridCell.Tab.0.right/-266.-1057.1920.1057/0.23.1440.816@-266.-1057.1920.1057" timestamp="1603575602225" />
     <state width="1878" height="326" key="GridCell.Tab.0.right/-266.-1057.1920.980/0.23.1440.877@-266.-1057.1920.980" timestamp="1603557025763" />
-    <state width="1878" height="326" key="GridCell.Tab.1.bottom" timestamp="1603579193188">
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1603712973212">
       <screen x="-266" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="326" key="GridCell.Tab.1.bottom/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603579193188" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603712973212" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603712517927" />
     <state width="1878" height="326" key="GridCell.Tab.1.bottom/-266.-1057.1920.980/0.23.1440.877@-266.-1057.1920.980" timestamp="1603557025767" />
-    <state width="1878" height="326" key="GridCell.Tab.1.center" timestamp="1603579193187">
+    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1603712973211">
       <screen x="-266" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="326" key="GridCell.Tab.1.center/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603579193187" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603712973211" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603712517927" />
     <state width="1878" height="326" key="GridCell.Tab.1.center/-266.-1057.1920.980/0.23.1440.877@-266.-1057.1920.980" timestamp="1603557025766" />
-    <state width="1878" height="326" key="GridCell.Tab.1.left" timestamp="1603579193187">
+    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1603712973211">
       <screen x="-266" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="326" key="GridCell.Tab.1.left/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603579193187" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603712973211" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603712517927" />
     <state width="1878" height="326" key="GridCell.Tab.1.left/-266.-1057.1920.980/0.23.1440.877@-266.-1057.1920.980" timestamp="1603557025765" />
-    <state width="1878" height="326" key="GridCell.Tab.1.right" timestamp="1603579193188">
+    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1603712973212">
       <screen x="-266" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="326" key="GridCell.Tab.1.right/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603579193188" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603712973212" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603712517927" />
     <state width="1878" height="326" key="GridCell.Tab.1.right/-266.-1057.1920.980/0.23.1440.877@-266.-1057.1920.980" timestamp="1603557025766" />
-    <state x="346" y="-811" width="760" height="486" key="find.popup" timestamp="1603554768799">
+    <state x="-166" y="-957" width="1720" height="857" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1603711646185">
       <screen x="-266" y="-1057" width="1920" height="1057" />
     </state>
+    <state x="-166" y="-957" width="1720" height="857" key="com.android.tools.idea.avdmanager.AvdListDialog/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603711646185" />
+    <state x="390" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1603627909734">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="390" y="262" key="com.intellij.ide.util.TipDialog/-266.-1057.1920.1057/0.23.1440.814@0.23.1440.814" timestamp="1603627909734" />
+    <state x="18" y="31" width="1387" height="803" maximized="true" key="dock-window-1" timestamp="1603641462722">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="18" y="31" width="1387" height="803" maximized="true" key="dock-window-1/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603641462722" />
+    <state x="346" y="-811" width="760" height="486" key="find.popup" timestamp="1603713480426">
+      <screen x="-266" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="346" y="-811" width="760" height="486" key="find.popup/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603713480426" />
     <state x="346" y="-811" width="760" height="486" key="find.popup/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603554768799" />
-    <state x="469" y="202" width="670" height="563" key="search.everywhere.popup" timestamp="1603579949374">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="359" y="-824" width="670" height="732" key="search.everywhere.popup" timestamp="1603714171115">
+      <screen x="-266" y="-1057" width="1920" height="1057" />
     </state>
     <state x="359" y="-824" width="670" height="732" key="search.everywhere.popup/-266.-1057.1920.1057/0.23.1440.811@-266.-1057.1920.1057" timestamp="1603466285415" />
-    <state x="359" y="-824" width="670" height="732" key="search.everywhere.popup/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603553311321" />
-    <state x="359" y="-824" width="670" height="732" key="search.everywhere.popup/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603555208558" />
+    <state x="359" y="-824" width="670" height="732" key="search.everywhere.popup/-266.-1057.1920.1057/0.23.1440.812@-266.-1057.1920.1057" timestamp="1603714171115" />
+    <state x="359" y="-824" width="670" height="732" key="search.everywhere.popup/-266.-1057.1920.1057/0.23.1440.814@-266.-1057.1920.1057" timestamp="1603712728555" />
     <state x="359" y="-824" width="670" height="732" key="search.everywhere.popup/-266.-1057.1920.1057/0.23.1440.816@-266.-1057.1920.1057" timestamp="1603576069360" />
     <state x="359" y="-842" width="670" height="676" key="search.everywhere.popup/-266.-1057.1920.977/0.23.1440.877@-266.-1057.1920.977" timestamp="1603458915551" />
     <state x="359" y="-841" width="670" height="678" key="search.everywhere.popup/-266.-1057.1920.978/0.23.1440.877@-266.-1057.1920.978" timestamp="1603564513717" />
@@ -226,9 +346,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/treyherman/doordashlite/manager/currency/CurrencyFormatManagerImpl.kt</url>
-          <line>14</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/treyherman/doordashlite/scene/discoverrestaurants/DiscoverRestaurantsPresenter.kt</url>
+          <line>67</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -54,7 +54,7 @@ class RestaurantDetailActivity : AppCompatActivity(), RestaurantDetailMvp.View {
 
     override fun finish() {
         super.finish()
-        overridePendingTransition(R.anim.enter_scene_fade_in, R.anim.exit_scene_left)
+        overridePendingTransition(R.anim.scene_stand_still, R.anim.exit_scene_left)
     }
 
     override fun displayRestaurantDetail(restaurantDetail: UIRestaurantDetail) {

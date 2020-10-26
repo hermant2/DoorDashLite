@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId "com.treyherman.doordashlite"
-        minSdkVersion 14
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -58,7 +58,6 @@ dependencies {
     implementation "androidx.cardview:cardview:$cardViewVersion"
     implementation "androidx.multidex:multidex:$multidexVersion"
     implementation "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
-//    implementation "androidx.swiperefreshlayout:swiperefreshlayout:$swipeToRefreshLayoutVersion"
 
     // rxJava2
     implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
@@ -79,17 +78,6 @@ dependencies {
     kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
     kapt "com.google.dagger:dagger-compiler:$daggerVersion"
     kapt "com.google.dagger:dagger-android-processor:$daggerVersion"
-
-    // retrofit/okhttp
-//    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
-//    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-//    implementation "com.squareup.retrofit2:adapter-rxjava2:$rxJava2AdapterFactory"
-//    implementation "com.squareup.okhttp3:okhttp:$okHttpVersion"
-//    implementation "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
-//    implementation "com.squareup.okio:okio:$okioVersion"
-
-    // material components
-//    implementation "com.google.android.material:material:$materialComponentsVersion"
 
     // image loader
     implementation "io.coil-kt:coil:$imageLoaderVersion"
